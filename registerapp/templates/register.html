@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>百知Python课程管理系统-注册</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+    {#	<script type="text/javascript" src="/static/js/register.js"></script>#}
+    <script>
+        function checkUsername(t) {//判断用户名是否符合正则规范
+            var name = t.value
+            if (name == '') {
+                var sapn = document.getElementById('msg')
+                sapn.innerHTML = "用户名不能为空"
+                sapn.style.display = "inline-block"
+            } else {
+                var regex = /^[\u4E00-\u9FA5]{2,10}$/
+                var result = regex.test(name)
+                if (result) {
+                    $.ajax({
+                        type: "post",
+                        url: "{% url 'registerapp:usernames' %}",
+                        data: "csrfmiddlewaretoken={{ csrf_token }}&username=" + name,
+                        success: function (msg) {
+                            if (msg = 'no') {
+                                var sapn = document.getElementById('msg')
+                                sapn.innerHTML = "用户名已存在"
+                                sapn.style.display = "inline-block"
+                            } else if (msg = 'yes')
+                                var sapn = document.getElementById('msg')
+                            {#sapn.innerHTML = "用户名合法"#}
+                            sapn.style.display = "none"
+                        }
+                    });
+                } else {
+                    var sapn = document.getElementById('msg')
+                    sapn.innerHTML = "用户名应是2-10位的纯中文组成"
+                    sapn.style.display = "inline-block"
+                }
+            }
+        }
+
+        function checkpassword() {
+            console.log(document.getElementById('pwd1'))
+            var password = document.getElementById('pwd1').value
+            var password1 = document.getElementById('cpwd1').value
+            $.ajax({
+                type: "post",
+                url: "{% url 'registerapp:passwords' %}",
+                data: "csrfmiddlewaretoken={{ csrf_token }}&password=" + password + "&password1=" + password1,
+                success: function (msg) {
+                    if (msg === 'yes') {
+                        var sapn = document.getElementById('pww')
+                        {#sapn.innerHTML = "密码合格"#}
+                        sapn.style.display = "none"
+                    } else if (msg === 'no') {
+                        var sapn = document.getElementById('pww')
+                        sapn.innerHTML = "密码不符合6-18位数字字母下划线要求"
+                        sapn.style.display = "inline-block"
+                    } else if (msg === 'nono') {
+                        var sapn = document.getElementById('pww')
+                        sapn.innerHTML = "密码不一致"
+                        sapn.style.display = "inline-block"
+                    } else if (msg === 'nn') {
+                        var sapn = document.getElementById('pww')
+                        sapn.innerHTML = "密码不能为空"
+                        sapn.style.display = "inline-block"
+                    }
+                }
+            });
+        }
+
+        $(function () {//判断第一次输入的密码是否符合要求
+            $("#pwd1").blur(function () {
+                var pwdd = $("[name='pwd']").val()
+                var pwdd2 = $("[name='cpwd']").val()//再次确认密码
+                var regex = /^[a-zA-Z0-9]{6,18}$/
+                var result = regex.test(pwdd)
+                if (result) {
+                    var sapn = document.getElementById('pww1')
+                    sapn.style.display = "none"
+                }
+                $.ajax({
+                    type: "post",
+                    url: "{% url 'registerapp:pwdone' %}",
+                    data: "csrfmiddlewaretoken={{ csrf_token }}&password=" + pwdd,
+                    success: function (msg) {
+                        if (msg === 'yes') {
+                            var sapn = document.getElementById('pww1')
+                            {#sapn.innerHTML = "none"#}
+                            sapn.style.display = "none"
+                        } else if (msg === 'no') {
+                            var sapn = document.getElementById('pww1')
+                            sapn.innerHTML = "密码不符合6-18位数字字母下划线要求"
+                            sapn.style.display = "inline-block"
+                        } else if (msg === 'nn') {
+                            var sapn = document.getElementById('pww1')
+                            sapn.innerHTML = "密码不能为空"
+                            sapn.style.display = "inline-block"
+                        }
+                    }
+                });
+            })
+        })
+        $(function () {
+            $("#email").blur(function () {
+                var pwdd = $("[name='email']").val()
+                var regex = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
+                var result = regex.test(pwdd)
+                if (result) {
+                    var sapn = document.getElementById('error_tip')
+                    sapn.style.display = "none"
+                } else {
+                    var sapn = document.getElementById('error_tip')
+                    sapn.innerHTML = "请输入正确的邮箱格式"
+                    sapn.style.display = "inline-block"
+                }
+
+            })
+        })
+
+        function changeCaptcha() {
+            var img = document.getElementsByTagName('img')[1]
+            img.src = "{% url 'registerapp:get_captcha' %}" + "?" + new Date().getTime()
+        }
+
+        function regist() {
+            console.log("1111")
+            var username = $('[name="user_name"]')[0].value
+            var password = $('[name="pwd"]')[0].value
+            var password1 = $('[name="cpwd"]')[0].value
+            var email = $('[name="email"]')[0].value
+            var captcha = $('[name="captcha"]')[0].value
+            var allow = $('[name="allow"]')[0].value
+
+            var sapn = document.getElementById('msg').style.display
+            var sapn1 = document.getElementById('pww1').style.display
+            var sapn2 = document.getElementById('pww').style.display
+            var sapn3 = document.getElementById('error_tip').style.display
+
+            {#if (username == '' || password == '' || password1 == '' || email == '' || allow == '') {#}
+            {#    var a = confirm('用户名密码确认密码邮箱协议不能为空!是否重新输入')#}
+            {#    console.log("到达了验证是否为空")#}
+            {#    if (a) {#}
+            {#        location.href = '{% url "registerapp:register" %}'#}
+            {#    } else {#}
+            {#        alert("拜拜")#}
+            {#    }#}
+            {# else {#}
+                if (sapn === 'none' && sapn1 === 'none' && sapn2 === 'none' && sapn3 === 'none') {
+                    console.log('进入ajax了')
+                    $.ajax({
+                        type: "post",
+                        url: "{% url 'registerapp:register_register' %}",
+                        data: "csrfmiddlewaretoken={{ csrf_token }}&username=" + username + "&password=" + password + "&password1=" + password1 + "&email=" + email + "&captcha=" + captcha + "&allow=" + allow,
+                        success: function (msg) {
+                            if (msg === '1') {
+                                var sapn = document.getElementById('error_tip2')
+                                sapn.innerHTML = "未勾选协议"
+                                sapn.style.display = "inline-block"
+                            } else if (msg === '2') {
+                                var sapn = document.getElementById('tip_captcha')
+                                sapn.innerHTML = "验证码有误"
+                                sapn.style.display = "inline-block"
+                            } else if (msg === "ok") {
+                                {#location.href = "{% url 'loginapp:login' %}"#}
+                                alert("用户名注册成功等待管理员审核成功后即可登录")
+                            }else if (msg==='存在'){
+                                var sapn = document.getElementById('msg')
+                                sapn.innerHTML = "用户名已存在"
+                                sapn.style.display = "inline-block"
+                            }
+                        }
+                    })
+                } else {
+                    console.log('触发了')
+                }
+            }
+
+
+
+
+    </script>
+</head>
+<body>
+<div class="register_con">
+    <div class="l_con fl">
+        <a class="reg_logo"><img src="/static/images/bz_logo.gif"></a>
+        <div class="reg_slogan">站在时代风口 · 抢占人工智能</div>
+        <div class="reg_banner"></div>
+    </div>
+
+    <div class="r_con fr">
+        <div class="reg_title clearfix">
+            <h1>用户注册</h1>
+            <a href='{% url "loginapp:login" %}'>登录</a>
+        </div>
+        <div class="reg_form clearfix">
+            <form method="post"><!--action="login.html"-->
+                <ul>
+                    <li>
+                        <label>用户名:</label>
+                        <input type="text" name="user_name" id="user_name" placeholder="请输入真实姓名"
+                               onblur="checkUsername(this)">
+                        <span class="error_tip" id="msg">提示信息</span>
+                    </li>
+                    <li>
+                        <label>密码:</label>
+                        <input type="password" name="pwd" id="pwd1" placeholder="请输入密码">
+                        <span class="error_tip" id="pww1">提示信息</span>
+                    </li>
+                    <li>
+                        <label>确认密码:</label>
+                        <input type="password" name="cpwd" id="cpwd1" placeholder="请输入确认密码"
+                               onblur="checkpassword()">
+                        <span class="error_tip" id="pww">提示信息</span>
+                    </li>
+                    <li>
+                        <label>邮箱:</label>
+                        <input type="text" name="email" id="email" placeholder="请输入邮箱">
+                        <span class="error_tip" id="error_tip">提示信息</span>
+                    </li>
+                    <li>
+                        <label>验证码:</label>
+                        <input type="text" name="captcha" id="captcha" style="width: 100px;">
+                        <img src="{% url 'registerapp:get_captcha' %}" alt="" width="80">
+                        <a href="javascript:void(0)" style="text-decoration: underline;" onclick="changeCaptcha()">看不清，换一张</a>
+                        <span class="error_tip" id="tip_captcha">提示信息</span>
+                    </li>
+                    <li class="agreement">
+                        <input type="checkbox" name="allow" id="allow" checked="checked" value="1">
+                        <label>同意”百知课程管理系统使用协议“</label>
+                        <span class="error_tip2" id="error_tip2">提示信息</span>
+                    </li>
+                    <li class="reg_sub">
+                        <input type="button" value="注 册" onclick="regist()">
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="footer no-mp">
+    <div class="foot_link">
+        <a href="#">关于我们</a>
+        <span>|</span>
+        <a href="#">联系我们</a>
+        <span>|</span>
+        <a href="#">招聘人才</a>
+        <span>|</span>
+        <a href="#">友情链接</a>
+    </div>
+    <p>CopyRight © 2020 北京百知教育科技有限公司 All Rights Reserved</p>
+    <p>电话：010-****888 京ICP备*******8号</p>
+</div>
+
+</body>
+</html>

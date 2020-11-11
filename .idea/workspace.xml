@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/home_pageapp/templates/addCourse.html" line="36" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f125ea6-28be-4cc2-afd0-87f37856bf20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Django10项目.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django10项目/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django10项目/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django10项目/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django10项目/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/MyMiddleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/01_mix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/02_middle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/03_max.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/addArticle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/bodymain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/logout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/maxScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/middleScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/minScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/pythonBase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/background3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/bz_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/common.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/icons02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/interval_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/left_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/login_banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/pay_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/images/register_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/local_time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/static/js/slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/templates/addArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/templates/addCourse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/templates/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/templates/pythonBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_pageapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/0/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/1/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/2/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/3/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/4/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/5/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/6/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/7/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/8/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/9/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/DroidSansMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/data/beep.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/captcha/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/01_mix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/02_middle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/03_max.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/addArticle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/bodymain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/logout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/maxScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/middleScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/minScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/pythonBase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/background3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/bz_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/common.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/icons02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/interval_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/left_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/login_banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/pay_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/images/register_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/static/js/slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/templates/forget_pwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/templates/reset_pwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/1111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/0/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/1/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/2/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/3/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/4/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/5/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/6/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/7/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/8/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/9/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/DroidSansMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/data/beep.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/captcha/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/01_mix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/02_middle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/03_max.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/addArticle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/bodymain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/logout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/maxScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/middleScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/minScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/pythonBase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/background3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/bz_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/common.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/icons02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/interval_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/left_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/login_banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/pay_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/images/register_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/static/js/slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerapp/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Django10$Test__home_pageapp.coverage" NAME="Test: home_pageapp Coverage Results" MODIFIED="1604764343413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Django10$11.coverage" NAME="11 Coverage Results" MODIFIED="1604985429130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/registerapp" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Django10项目" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_pageapp/templates/addCourse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2834">
+              <caret line="109" column="74" selection-start-line="109" selection-start-column="74" selection-end-line="109" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_pageapp/templates/addArticle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2678">
+              <caret line="103" column="74" selection-start-line="103" selection-start-column="74" selection-end-line="103" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_pageapp/templates/pythonBase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1846">
+              <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_pageapp/templates/logout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2002">
+              <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_pageapp/templates/update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3926">
+              <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_pageapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7202">
+              <caret line="314" column="23" selection-start-line="314" selection-start-column="23" selection-end-line="314" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#423#599#0" />
+                <element signature="e#644#782#0" />
+                <element signature="e#2705#2931#0" />
+                <element signature="e#2952#3007#0" />
+                <element signature="e#3047#3418#0" />
+                <element signature="e#3047#3091#0" />
+                <element signature="e#5771#5784#0" />
+                <element signature="e#7169#7716#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home_pageapp/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="230" column="6" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registerapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1716">
+              <caret line="78" column="109" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="109" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loginapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2002">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>css/</find>
+      <find>ide</find>
+      <find>id1</find>
+      <find>panel-default</find>
+      <find>id</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/static/css/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../Django8/Django8/settings.py" />
+        <option value="$PROJECT_DIR$/templates/addArticle.html" />
+        <option value="$PROJECT_DIR$/templates/manage/addArticle.html" />
+        <option value="$PROJECT_DIR$/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/loginapp/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/Django10项目/__init__.py" />
+        <option value="$PROJECT_DIR$/loginapp/templates/register.html" />
+        <option value="$PROJECT_DIR$/home_pageapp/users.py" />
+        <option value="$PROJECT_DIR$/Django10项目/urls.py" />
+        <option value="$PROJECT_DIR$/registerapp/templates/register.html" />
+        <option value="$PROJECT_DIR$/registerapp/models.py" />
+        <option value="$PROJECT_DIR$/loginapp/urls.py" />
+        <option value="$PROJECT_DIR$/registerapp/urls.py" />
+        <option value="$PROJECT_DIR$/registerapp/views.py" />
+        <option value="$PROJECT_DIR$/loginapp/models.py" />
+        <option value="$PROJECT_DIR$/home_pageapp/models.py" />
+        <option value="$PROJECT_DIR$/home_pageapp/manage.py" />
+        <option value="$PROJECT_DIR$/home_pageapp/Middleware.py" />
+        <option value="$PROJECT_DIR$/home_pageapp/MyMiddleware.py" />
+        <option value="$PROJECT_DIR$/loginapp/templates/login.html" />
+        <option value="$PROJECT_DIR$/home_pageapp/templates/logout.html" />
+        <option value="$PROJECT_DIR$/loginapp/views.py" />
+        <option value="$PROJECT_DIR$/home_pageapp/urls.py" />
+        <option value="$PROJECT_DIR$/home_pageapp/views.py" />
+        <option value="$PROJECT_DIR$/Django10项目/settings.py" />
+        <option value="$PROJECT_DIR$/home_pageapp/templates/pythonBase.html" />
+        <option value="$PROJECT_DIR$/home_pageapp/templates/update.html" />
+        <option value="$PROJECT_DIR$/home_pageapp/templates/addCourse.html" />
+        <option value="$PROJECT_DIR$/home_pageapp/templates/addArticle.html" />
+        <option value="$PROJECT_DIR$/home_pageapp/templates/index.html" />
+        <option value="$PROJECT_DIR$/registerapp/11.py" />
+        <option value="$PROJECT_DIR$/registerapp/1111.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="145" />
+    <option name="width" value="1378" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Django10项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django10项目" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\templates\manage" />
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\templates\login" />
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\templates\register" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\home_pageapp\static\js" />
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\home_pageapp\templates" />
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\home_pageapp\static" />
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\registerapp\templates" />
+      <recent name="D:\pycharm\wenjian  11\第二阶段web全栈\web后端\Django10项目\loginapp\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.11">
+    <configuration name="Test: home_pageapp" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Django10项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="home_pageapp" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django10项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/registerapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/registerapp/11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Django10项目" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Django10项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Django10项目.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.11" />
+        <item itemvalue="Django tests.Test: home_pageapp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f125ea6-28be-4cc2-afd0-87f37856bf20" name="Default Changelist" comment="" />
+      <created>1604388379011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604388379011</updated>
+      <workItem from="1604388383254" duration="14489000" />
+      <workItem from="1604407198488" duration="25475000" />
+      <workItem from="1604474636188" duration="111631000" />
+      <workItem from="1604753241516" duration="1025000" />
+      <workItem from="1604756132641" duration="96063000" />
+      <workItem from="1604920953435" duration="587000" />
+      <workItem from="1604923344498" duration="13747000" />
+      <workItem from="1604970077204" duration="9454000" />
+      <workItem from="1605008204372" duration="30000" />
+      <workItem from="1605100334879" duration="740000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__home_pageapp - 2020.11.07 at 23h 25m 40s.xml">
+      <configuration name="Test: home_pageapp" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__home_pageapp - 2020.11.07 at 23h 41m 34s.xml">
+      <configuration name="Test: home_pageapp" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__home_pageapp - 2020.11.07 at 23h 50m 35s.xml">
+      <configuration name="Test: home_pageapp" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="273241000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="145" width="1378" height="709" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" sideWeight="0.5016835" side_tool="true" weight="0.17700455" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4983165" visible="true" weight="0.2693475" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2859477" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20751634" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983165" visible="true" weight="0.25189108" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5016835" side_tool="true" weight="0.17700455" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22385621" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21732026" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32843137" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Django/Django1/Lib/site-packages/django/urls/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django8/userloginapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/static/js/jquery-1.12.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/templates/register.html" />
+    <entry file="file://$PROJECT_DIR$/../Django8 - 副本/userloginapp/templates/userloginapp/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="201" column="58" lean-forward="true" selection-start-line="201" selection-start-column="58" selection-end-line="201" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/Django1/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4498">
+          <caret line="187" column="36" lean-forward="true" selection-start-line="187" selection-start-column="36" selection-end-line="187" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/templates/logout.html" />
+    <entry file="file://$PROJECT_DIR$/loginapp/templates/pythonBase.html" />
+    <entry file="file://D:/python/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="371" lean-forward="true" selection-start-line="371" selection-end-line="371" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django10项目/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/../Django/Django1/Lib/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1963">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django10项目/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django8/userloginapp/MyMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django8/Django8/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/static/js/local_time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/baizhi_course_system/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="215" column="21" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/wsgiref/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/Django1/Lib/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django8/staffapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/baizhi_course_system/course/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3224">
+          <caret line="163" column="14" lean-forward="true" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/MyMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/templates/forget_pwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/templates/reset_pwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerapp/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="191" column="38" lean-forward="true" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/Django1/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django10项目/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerapp/11.py" />
+    <entry file="file://$PROJECT_DIR$/registerapp/1111.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/templates/addCourse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2834">
+          <caret line="109" column="74" selection-start-line="109" selection-start-column="74" selection-end-line="109" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/templates/addArticle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2678">
+          <caret line="103" column="74" selection-start-line="103" selection-start-column="74" selection-end-line="103" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/templates/pythonBase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1846">
+          <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/templates/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/templates/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3926">
+          <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7202">
+          <caret line="314" column="23" selection-start-line="314" selection-start-column="23" selection-end-line="314" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#423#599#0" />
+            <element signature="e#644#782#0" />
+            <element signature="e#2705#2931#0" />
+            <element signature="e#2952#3007#0" />
+            <element signature="e#3047#3418#0" />
+            <element signature="e#3047#3091#0" />
+            <element signature="e#5771#5784#0" />
+            <element signature="e#7169#7716#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="78" column="109" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_pageapp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="230" column="6" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
